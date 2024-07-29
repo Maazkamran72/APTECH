@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.object 2.com</title>
+</head>
+<body>
+    <script>
+
+    let obj ={
+        name:"Zain",
+        age: 20,
+        institute:"Aptech Learning Center",
+        courses:{
+            programming:"Javascript",
+            designing: "Css",
+            graphic:{
+                image: "photoshop",
+                video: "videoediting",
+                vector: ["adobe illustrator", "AE"],
+            }
+        }
+    }
+    document.write(` Name: ${obj.name} </br> Age: ${obj.age} </br> Institue name: ${obj.institute} </br> Course name:${obj.courses.graphic.vector[1]}`)
+    </script>
+</body>
+</html>

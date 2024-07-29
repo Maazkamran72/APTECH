@@ -1,0 +1,24 @@
+Primary Key  (setting method) 1st method.
+
+1.Create table.
+2.Click table structure.
+3.Click change (jis ko primary banana hai).
+4.Search A.I and tick A.I and save.
+
+Primary key (Type Query Method) 2nd method.
+
+CREATE TABLE table_name(
+id int not null AUTO_INCREMENT ,
+Name varchar (30),
+phone int(11),
+PRIMARY KEY(id)
+);
+
+Example;
+
+CREATE TABLE pri_mary(
+id int not null AUTO_INCREMENT ,
+Name varchar (30),
+phone int(11),
+PRIMARY KEY(id)
+);

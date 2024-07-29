@@ -1,0 +1,6 @@
+Git hub Account Making Method.
+1.Dowload Git.
+2.Go to browser and type www.github.com.
+3.Sign up Git Hub (email address:zainulabdinfareed523@gmail.com / password:zain1548992 / user name:Zainulabdin-786).
+4.Go to setting and set profile.
+5.Go to Repositories and create repository.

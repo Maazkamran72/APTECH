@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.call backs and return this function.com</title>
+</head>
+<body>
+    <h4>call backs</h4>
+
+    <script>
+        function fun(some){
+            document.write("Hello Javascript"+some);
+        }
+
+        function first(one){
+            document.write("Hello"+one);
+        }
+
+        function second(two){
+            document.write("Javascript"+two);
+        }
+
+        fun(first("by"));
+    </script>
+
+    <h4>return this</h4>
+
+    <script>
+        let obj = {
+            first_name:"Albert",
+            last_name:" Eistein",
+            age:30,
+            full_name:function(){
+                return this.first_name +""+this.last_name;
+            }
+        }
+        document.write(obj.full_name());
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,6 @@
+"INDEX"
+
+Example:-
+
+CREATE INDEX idx_name
+ON students(stu_name);

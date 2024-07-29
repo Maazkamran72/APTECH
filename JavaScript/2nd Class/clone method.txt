@@ -1,0 +1,6 @@
+git hub clone method!
+
+1.press "window+R"
+2.type "cmd"
+3.type "cd desktop"
+4.type "git clone url" and paste repository url

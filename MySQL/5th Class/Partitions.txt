@@ -1,0 +1,38 @@
+"Partitions"
+
+"Partition by Range"
+
+Example:-
+
+CREATE TABLE partio_ns(
+id int,
+name varchar(30),
+country varchar (30))
+
+
+PARTITION by RANGE (id)(
+    PARTITION p0 VALUES LESS THAN (5),
+    PARTITION p1 VALUES LESS THAN (11),
+    PARTITION p3 VALUES LESS THAN MAXVALUE);
+    
+INSERT INTO partio_ns VALUES
+(1,"Saifullah","Karachi"),
+(2,"Anus","Lahore"),
+(3,"Hammad","Karachi"),
+(4,"hassan","Karachi"),
+(5,"Zain","Lahore"),
+(6,"Huzaifa","Karachi"),
+(7,"Huzaifa","Karachi"),
+(8,"Kamran","Karachi"),
+(9,"Maaz","Karachi"),
+(10,"Iqbal","Karachi"),
+(11,"Hamid","Islamabad"),
+(12,"Sahoon","Karachi"),
+(13,"Moin","Karachi"),
+(14,"Hamza","Lahore"),
+(15,"Farooq","Islamabad");
+
+
+"Partion select method"
+
+SELECT * FROM partio_ns PARTITIONS (p0)

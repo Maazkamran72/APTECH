@@ -1,0 +1,3 @@
+"Installing php tools"
+
+Download 'vs studio code' and 'xampp'

@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.promise.com</title>
+</head>
+<body>
+    <script>
+        function fun(complete){
+            return new Promise((resolve,reject)=>{
+                if(complete){
+                    resolve("Iam fulfill");
+                }
+                else{
+                    reject("Iam rejected");
+                }
+            });
+        }
+        
+        let fullfill=((value)=>{
+            console.log(value);
+        });
+
+        let reject=((err)=>{
+            console.log(err);
+        });
+        
+        fun(true).then(fullfill).catch(reject);
+    </script>
+</body>
+</html>

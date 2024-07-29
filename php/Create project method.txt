@@ -1,0 +1,6 @@
+"Creating project"
+
+1.Open this pc and find 'Xampp'.
+2.Open 'Xampp' and search 'htdocs' folder and open it.
+3.Create a new folder and open and type 'cmd' in search option.
+4.Type ' code . ' in cmd and then open vscode.

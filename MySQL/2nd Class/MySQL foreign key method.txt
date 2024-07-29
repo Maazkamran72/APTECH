@@ -1,0 +1,21 @@
+Foreign Key method
+
+create table and make any column primary.(1st create primary table (parent table))
+
+CREATE TABLE table_name(
+sr_no int Not null,
+product_no int(5),
+customer_id int(5),
+PRIMARY key(sr_no),
+FOREIGN KEY(customer_id)REFERENCES pri_mary(id)
+);
+
+example;
+
+CREATE TABLE fore_ign(
+sr_no int Not null,
+product_no int(5),
+customer_id int(5),
+PRIMARY key(sr_no),
+FOREIGN KEY(customer_id)REFERENCES pri_mary(id)
+);

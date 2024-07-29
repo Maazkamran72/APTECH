@@ -1,0 +1,3 @@
+API full form "Application Programming Interface".
+
+npm full form "Node package manager".

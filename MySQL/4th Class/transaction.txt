@@ -1,0 +1,15 @@
+"Transactions"
+
+Example:-(COMMIT)
+
+START TRANSACTION;
+UPDATE students
+set stu_name = "Hassan" where st_id=1;
+COMMIT;
+
+Example:-(ROLLBACK)
+
+START TRANSACTION;
+UPDATE students
+set stu_name = "Hammad" where st_id=1;
+ROLLBACK;

@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asyncronous function.com</title>
+</head>
+<body>
+    
+    <script>
+        async function prom(){
+            var Karachi_weather = new Promise((resolve,reject)=>{
+                setTimeout(()=>{
+                    resolve("21 Deg");
+                },2000);
+            });
+
+            var Islamabad_weather = new Promise((resolve,reject)=>{
+                setTimeout(()=>{
+                    resolve("26 Deg");
+                },4000);
+            });
+
+            var Lahore_weather = new Promise((resolve,reject)=>{
+                setTimeout(()=>{
+                    resolve("22 Deg");
+                },6000);
+            });
+
+            let Khi_w = await Karachi_weather;
+            console.log("Fetching Karachi Weather Please Wait..!!");
+            console.log(`Karachi Weather Fetched at ${Khi_w}`);
+
+            let Lhr_w = await Lahore_weather;
+            console.log("Fetching Lahore Weather Please Wait..!!");
+            console.log(`Lahore Weather Fetched at ${Lhr_w}`);
+
+            let Isl_w = await Islamabad_weather;
+            console.log("Fetching Islamabad Weather Please Wait..!!");
+            console.log(`Islamabad Weather Fetched at ${Isl_w}`);
+
+            return [Khi_w,Lhr_w,Isl_w];
+        }
+
+        console.log("Welcome to Weather Control Room");
+
+        let fullfill = ((value)=>{
+            console.log(value);
+        });
+
+        prom().then((value)=>{
+            console.log(value); 
+        });
+    </script>
+</body>
+</html>

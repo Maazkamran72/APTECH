@@ -1,0 +1,8 @@
+1-javascript:programming language/scripting language
+2-Developer name:Brendan Eich
+3-Publish Year:1995
+4-Case Sensitive
+5-Extension:.js
+<script>
+//javascript code....
+</script>

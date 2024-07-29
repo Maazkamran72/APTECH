@@ -1,0 +1,5 @@
+"Nested Querey"
+
+Example:-
+
+SELECT * FROM emplo_yee WHERE salary > (SELECT AVG(salary) FROM emplo_yee)

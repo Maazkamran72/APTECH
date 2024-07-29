@@ -1,0 +1,34 @@
+"SQL JOINS"
+
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+
+"INNER JOINS"
+
+Inner joins combine records from two tables whenever there are matching values in a field common to both tables.
+
+
+1.INNER JOINS(query)
+
+SELECT ordertable.order_id,customertable.customer_name,customertable.customer_id
+FROM ordertable
+INNER JOIN customertable ON ordertable.customer_id=customertable.customer_id;
+
+
+2.NATURAL JOINS(query)
+
+SELECT * FROM students NATURAL JOIN courses;
+
+
+3.LEFT JOINS(query)
+
+SELECT * 
+FROM students
+LEFT JOIN courses ON students.st_id = courses.st_id;
+
+
+4.RIGHT JOINS(query)
+
+SELECT * 
+FROM students
+RIGHT JOIN courses ON students.st_id = courses.st_id;

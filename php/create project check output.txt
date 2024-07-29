@@ -1,0 +1,15 @@
+"Create first Project and check output"
+
+Example:-
+<?php
+echo"Hello world";
+?>
+
+
+
+"how to run php code"
+
+1.Open xampp control panel and start Apache and MySQL.
+2.Open Google Chrome and type localhost:Apache ports no/folder name/index.php
+example:- 
+" localhost:80/Z.Projects/index.php ".

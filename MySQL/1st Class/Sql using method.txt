@@ -1,0 +1,9 @@
+SQL using method
+
+1.Open google chrome and search xampp download and download it.
+2.Install Xampp.
+3.Open Xampp.
+4.Click start Apache and MySQL and see Port(s) code.
+5.Open Google Chrome and search "http://localhost:80/phpmyadmin".
+6.See top and click SQL.
+ 

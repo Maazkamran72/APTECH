@@ -1,0 +1,7 @@
+"String Functions"
+
+Example:-
+
+SELECT CONCAT("He" ,"llo");
+
+SELECT CURRENT_DATE();
